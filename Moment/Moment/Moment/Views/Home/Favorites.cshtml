@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Moment.Models.Photo>
+
+<div class="container mt-5">
+    <h2 class="text-primary text-center mb-4">Your Favorite Photos</h2>
+
+    <div class="row">
+        @if (Model == null || !Model.Any())
+        {
+            <div class="col-12 text-center">
+                <p class="text-muted">You don't have any favorite photos yet.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var photo in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="@Url.Action("GetPhoto", "Photo", new { id = photo.Id })" class="card-img-top" alt="@photo.Title" />
+                        <div class="card-body">
+                            <h5 class="card-title">@photo.Title</h5>
+                            <p class="card-text">@photo.Description</p>
+                            <form method="post" asp-action="RemoveFromFavorites" asp-controller="Home" asp-route-photoId="@photo.Id">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger">Remove from Favorites</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

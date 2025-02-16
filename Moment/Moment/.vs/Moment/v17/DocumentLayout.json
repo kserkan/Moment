@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\views\\home\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\views\\home\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\views\\home\\following.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\views\\home\\following.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\views\\home\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\views\\home\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|c:\\users\\kerim\\desktop\\221229040\\221229040\\moment\\moment\\moment\\models\\photowiewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEF822-2815-42D3-A1F6-F3CE8E37B56E}|Moment\\Moment.csproj|solutionrelative:moment\\models\\photowiewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Dockerfile",
+              "RelativeDocumentMoniker": "Moment\\Dockerfile",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Dockerfile",
+              "RelativeToolTip": "Moment\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-12T14:25:58.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\appsettings.json",
+              "RelativeDocumentMoniker": "Moment\\appsettings.json",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\appsettings.json",
+              "RelativeToolTip": "Moment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T19:05:46.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "Moment\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "Moment\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAIBJwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-10T16:01:59.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Moment\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Comment.cs",
+              "RelativeToolTip": "Moment\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:02:14.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "Moment\\Models\\Like.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Like.cs",
+              "RelativeToolTip": "Moment\\Models\\Like.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:02:00.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Feed.cshtml",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Feed.cshtml",
+              "RelativeDocumentMoniker": "Moment\\Views\\Home\\Feed.cshtml",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Feed.cshtml",
+              "RelativeToolTip": "Moment\\Views\\Home\\Feed.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwFcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T13:50:38.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "Moment\\Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "Moment\\Controllers\\PhotoController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIBJwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:28:15.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Moment\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Moment\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:27:55.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PhotoWiewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\PhotoWiewModel.cs",
+              "RelativeDocumentMoniker": "Moment\\Models\\PhotoWiewModel.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\PhotoWiewModel.cs",
+              "RelativeToolTip": "Moment\\Models\\PhotoWiewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:16:52.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Moment\\Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Moment\\Models\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:02:28.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Moment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Moment\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:17:40.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "Moment\\Models\\Photo.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Photo.cs",
+              "RelativeToolTip": "Moment\\Models\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T12:10:43.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Moment\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Moment\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T12:01:35.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Moment\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Models\\Notification.cs",
+              "RelativeToolTip": "Moment\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T11:43:35.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Following.cshtml",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Following.cshtml",
+              "RelativeDocumentMoniker": "Moment\\Views\\Home\\Following.cshtml",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Following.cshtml",
+              "RelativeToolTip": "Moment\\Views\\Home\\Following.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T21:54:14.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Favorites.cshtml",
+              "DocumentMoniker": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Favorites.cshtml",
+              "RelativeDocumentMoniker": "Moment\\Views\\Home\\Favorites.cshtml",
+              "ToolTip": "C:\\Users\\kerim\\Desktop\\221229040\\221229040\\Moment\\Moment\\Moment\\Views\\Home\\Favorites.cshtml",
+              "RelativeToolTip": "Moment\\Views\\Home\\Favorites.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T20:49:29.647Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

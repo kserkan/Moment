@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form method="post" action="/Account/Register">
+            @Html.AntiForgeryToken() <!-- CSRF koruması için gerekli -->
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Password" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="@Url.Action("Login", "Account")">Login here</a></p>
+    </div>
+</body>
+</html>

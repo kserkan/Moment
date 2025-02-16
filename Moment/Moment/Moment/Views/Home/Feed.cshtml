@@ -1,0 +1,168 @@
+﻿@model FeedViewModel
+
+@{
+    ViewData["Title"] = "Feed";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Feed</h2>
+
+    <div class="row">
+        @if (Model.FollowedPhotos != null && Model.FollowedPhotos.Any())
+        {
+            foreach (var photo in Model.FollowedPhotos)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow">
+                        <img src="@Url.Action("GetPhoto", "Photo", new { id = photo.Id })"
+                             class="card-img-top" alt="Photo" style="height: 300px; object-fit: cover;" />
+                        <div class="card-body">
+                            <h5 class="card-title">@photo.Title</h5>
+                            <p class="card-text">@photo.Description</p>
+                            <p class="text-muted">
+                                Uploaded by
+                                <strong>
+                                    @if (photo.User != null && !string.IsNullOrEmpty(photo.User.Name))
+                                    {
+                                        @photo.User.Name
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger">Unknown User</span>
+                                    }
+                                </strong>
+                                <br />
+                                <small>@photo.UploadDate.ToString("f")</small>
+                            </p>
+
+                            <!-- Beğeni sayısı ve butonu -->
+                            <!-- Beğeni sayısı ve butonu -->
+                            <p>
+                                <strong>Likes:</strong> <span id="likeCount_@photo.Id">@photo.Likes.Count()</span>
+                                <button type="button" class="btn btn-sm btn-primary like-btn" data-photo-id="@photo.Id">
+                                    Like
+                                </button>
+                            </p>
+
+
+                            <!-- Yorumlar -->
+                            <p>
+                                <strong>Comments:</strong> @photo.Comments.Count()
+                                @if (photo.Comments.Count() > 0)
+                                {
+                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#commentsModal_@photo.Id">
+                                        (Yorumları Gör)
+                                    </a>
+                                }
+                            </p>
+
+                            <form asp-action="LikePhoto" method="post" class="d-inline">
+                                @Html.AntiForgeryToken() <!-- 🔴 Bunu ekleyin -->
+                                <input type="hidden" name="photoId" value="@photo.Id" />
+                                
+                            </form>
+
+                            <form class="comment-form mt-2" data-photo-id="@photo.Id">
+                                @Html.AntiForgeryToken() <!-- CSRF koruması -->
+                                <input type="hidden" name="photoId" value="@photo.Id" />
+                                <div class="mb-2">
+                                    <textarea name="content" class="form-control comment-text" rows="2" placeholder="Add a comment..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-sm">Submit Comment</button>
+                            </form>
+
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal - Yorumlar -->
+                <div class="modal fade" id="commentsModal_@photo.Id" tabindex="-1" aria-labelledby="commentsModalLabel_@photo.Id" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="commentsModalLabel_@photo.Id">Yorumlar</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="list-group comment-list" id="commentList_@photo.Id">
+                                    @foreach (var comment in photo.Comments)
+                                    {
+                                        <li class="list-group-item">
+                                            <strong>@comment.User?.Name ?? $"User ID {comment.UserId}"</strong>
+                                            <span class="text-muted">(@comment.CreatedAt.ToString("g"))</span>
+                                            <br />
+                                            @comment.Content
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No photos available in your feed.</p>
+        }
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Like butonu işlevselliği
+        document.querySelectorAll(".like-btn").forEach(button => {
+            button.addEventListener("click", function () {
+                var photoId = this.getAttribute("data-photo-id");
+                var token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+                fetch('/Photo/LikePhoto', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: `photoId=${photoId}&__RequestVerificationToken=${token}`
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            document.getElementById(`likeCount_${photoId}`).textContent = data.newLikeCount;
+                            this.textContent = (data.message === "Liked") ? "Unlike" : "Like";
+                        } else {
+                            alert(data.message);
+                        }
+                    })
+                    .catch(error => console.error("Error:", error));
+            });
+        });
+
+        // Yorum formunu işleme
+        document.querySelectorAll(".comment-form").forEach(form => {
+            form.addEventListener("submit", function (e) {
+                e.preventDefault(); // Sayfanın normal form gönderimini engelle
+
+                var photoId = this.getAttribute("data-photo-id");
+                var formData = new FormData(this);
+
+                fetch('/Photo/AddComment', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            window.location.reload(); // 🟢 Yorum eklendikten sonra sayfayı yenile
+                        } else {
+                            alert(data.message);
+                        }
+                    })
+                    .catch(error => console.error("Error:", error));
+            });
+        });
+    });
+</script>
+
+

@@ -1,0 +1,32 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache files
+.vs/
+.vscode/
+
+# Git repository
+.git/
+.gitignore
+
+# Dockerfile ve docker-compose dosyaları
+Dockerfile
+docker-compose.yml
+
+# Diğer gereksiz dosyalar
+*.md
+*.log
+*.tmp
+
+# Publikasyon çıktıları (eğer build aşamasında zaten publish ediliyorsa)
+out/
+
+# İstek üzerine eklenmiş klasörler
+wwwroot/Uploads/

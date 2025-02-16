@@ -1,0 +1,30 @@
+﻿@model List<User>
+
+<h2>All Users</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>
+                    @if (User.Identity.Name != user.Email) 
+                    {
+                        <form asp-action="Follow" method="post">
+                            <input type="hidden" name="followedId" value="@user.Id" />
+                            <button type="submit" class="btn btn-primary">Follow</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

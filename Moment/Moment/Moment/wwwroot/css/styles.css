@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    form button:hover {
+        background-color: #0056b3;
+    }
+
+.gallery {
+    margin-top: 20px;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+    .btn:hover {
+        background: #0056b3;
+    }
+
+
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Ana Ýçerik */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Fotoðraf Kartlarý */
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+        max-height: 350px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    /* Fotoðraf Yükleme Kartý */
+    .card form {
+        padding: 20px;
+    }
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important;
+    padding: 15px;
+}
+
+/* Fotoðraf Grid Sistemi */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-lg-4 {
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+.col-md-6 {
+    flex: 1 1 45%;
+    max-width: 45%;
+}
+
+.col-sm-12 {
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: aqua;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .col-lg-4, .col-md-6 {
+        max-width: 100%;
+    }
+}
+.photo-card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .photo-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+.upload-box, .user-profile {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sm {
+    font-size: 0.85rem;
+}

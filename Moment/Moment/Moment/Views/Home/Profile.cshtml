@@ -1,0 +1,73 @@
+﻿@model Moment.ViewModels.ProfileViewModel
+
+<div class="container mt-4">
+    <h2>Profile</h2>
+
+    <div class="card shadow p-4 mb-4">
+        <h4>User Information</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Name: @Model.CurrentUser.Name</li>
+            <li class="list-group-item">Email: @Model.CurrentUser.Email</li>
+        </ul>
+    </div>
+
+    <div class="card shadow p-4">
+        <h4>Follow New Users</h4>
+        @if (Model.FollowableUsers != null)
+        {
+            <table class="table">
+                <tbody>
+                    @foreach (var u in Model.FollowableUsers)
+                    {
+                        <tr>
+                            <td>@u.Name</td>
+                            <td>@u.Email</td>
+                            <td>
+                                <form asp-action="Follow" method="post">
+                                    <input type="hidden" name="followedId" value="@u.Id" />
+                                    <button type="submit" class="btn btn-primary">Follow</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <!-- Örnek: Takip Ettikleriniz (Following) Tablosu -->
+    <div class="card shadow p-4">
+        <h4>Following (Takip Ettiğin Kullanıcılar)</h4>
+        @if (Model.Following != null && Model.Following.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <!-- İsterseniz Unfollow butonu vb. ekleyebilirsiniz -->
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var followedUser in Model.Following)
+                    {
+                        <tr>
+                            <td>@followedUser.Name</td>
+                            <td>@followedUser.Email</td>
+                            <td>
+                                <form asp-action="Unfollow" method="post">
+                                    <input type="hidden" name="followedId" value="@followedUser.Id" />
+                                    <button type="submit" class="btn btn-danger">Unfollow</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>Şu an kimseyi takip etmiyorsunuz.</p>
+        }
+    </div>
+</div>
